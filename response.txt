@@ -1,790 +1,540 @@
 {
-  "status" : 400,
-  "message" : " is not a valid value.",
-  "details" : {
-    "stackTrace" : [ {
-      "methodName" : "lambda$propogateAsRuntimeException$3",
-      "fileName" : "QuerySupport.java",
-      "lineNumber" : 72,
-      "className" : "gov.uspto.ptab.publicdata.ws.web.api.QuerySupport",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "accept",
-      "fileName" : "ReferencePipeline.java",
-      "lineNumber" : 193,
-      "className" : "java.util.stream.ReferencePipeline$3$1",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "tryAdvance",
-      "fileName" : "Spliterators.java",
-      "lineNumber" : 958,
-      "className" : "java.util.Spliterators$ArraySpliterator",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "forEachWithCancel",
-      "fileName" : "ReferencePipeline.java",
-      "lineNumber" : 126,
-      "className" : "java.util.stream.ReferencePipeline",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "copyIntoWithCancel",
-      "fileName" : "AbstractPipeline.java",
-      "lineNumber" : 498,
-      "className" : "java.util.stream.AbstractPipeline",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "copyInto",
-      "fileName" : "AbstractPipeline.java",
-      "lineNumber" : 485,
-      "className" : "java.util.stream.AbstractPipeline",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "wrapAndCopyInto",
-      "fileName" : "AbstractPipeline.java",
-      "lineNumber" : 471,
-      "className" : "java.util.stream.AbstractPipeline",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "evaluateSequential",
-      "fileName" : "FindOps.java",
-      "lineNumber" : 152,
-      "className" : "java.util.stream.FindOps$FindOp",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "evaluate",
-      "fileName" : "AbstractPipeline.java",
-      "lineNumber" : 234,
-      "className" : "java.util.stream.AbstractPipeline",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "findAny",
-      "fileName" : "ReferencePipeline.java",
-      "lineNumber" : 469,
-      "className" : "java.util.stream.ReferencePipeline",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "transformFirst",
-      "fileName" : "QuerySupport.java",
-      "lineNumber" : 94,
-      "className" : "gov.uspto.ptab.publicdata.ws.web.api.QuerySupport",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "transformToRange",
-      "fileName" : "QuerySupport.java",
-      "lineNumber" : 158,
-      "className" : "gov.uspto.ptab.publicdata.ws.web.api.QuerySupport",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "rangeFor",
-      "fileName" : "QuerySupport.java",
-      "lineNumber" : 176,
-      "className" : "gov.uspto.ptab.publicdata.ws.web.api.QuerySupport",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "localDateTimeRangeFor",
-      "fileName" : "QuerySupport.java",
-      "lineNumber" : 184,
-      "className" : "gov.uspto.ptab.publicdata.ws.web.api.QuerySupport",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "filedWithin",
-      "fileName" : "DocumentCollectionResourceQuery.java",
-      "lineNumber" : 61,
-      "className" : "gov.uspto.ptab.publicdata.ws.web.api.DocumentCollectionResourceQuery",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "hashCode",
-      "fileName" : "DocumentCollectionResourceQuery.java",
-      "lineNumber" : 151,
-      "className" : "gov.uspto.ptab.publicdata.ws.web.api.DocumentCollectionResourceQuery",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doHash",
-      "fileName" : "Equivalence.java",
-      "lineNumber" : 341,
-      "className" : "com.google.common.base.Equivalence$Equals",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "hash",
-      "fileName" : "Equivalence.java",
-      "lineNumber" : 106,
-      "className" : "com.google.common.base.Equivalence",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "hash",
-      "fileName" : "LocalCache.java",
-      "lineNumber" : 1843,
-      "className" : "com.google.common.cache.LocalCache",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "getIfPresent",
-      "fileName" : "LocalCache.java",
-      "lineNumber" : 3941,
-      "className" : "com.google.common.cache.LocalCache",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "getIfPresent",
-      "fileName" : "LocalCache.java",
-      "lineNumber" : 4784,
-      "className" : "com.google.common.cache.LocalCache$LocalManualCache",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "lookup",
-      "fileName" : "GuavaCache.java",
-      "lineNumber" : 98,
-      "className" : "org.springframework.cache.guava.GuavaCache",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "get",
-      "fileName" : "AbstractValueAdaptingCache.java",
-      "lineNumber" : 56,
-      "className" : "org.springframework.cache.support.AbstractValueAdaptingCache",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "get",
-      "fileName" : "GuavaCache.java",
-      "lineNumber" : 93,
-      "className" : "org.springframework.cache.guava.GuavaCache",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doGet",
-      "fileName" : "AbstractCacheInvoker.java",
-      "lineNumber" : 68,
-      "className" : "org.springframework.cache.interceptor.AbstractCacheInvoker",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "findInCaches",
-      "fileName" : "CacheAspectSupport.java",
-      "lineNumber" : 469,
-      "className" : "org.springframework.cache.interceptor.CacheAspectSupport",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "findCachedItem",
-      "fileName" : "CacheAspectSupport.java",
-      "lineNumber" : 435,
-      "className" : "org.springframework.cache.interceptor.CacheAspectSupport",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "execute",
-      "fileName" : "CacheAspectSupport.java",
-      "lineNumber" : 336,
-      "className" : "org.springframework.cache.interceptor.CacheAspectSupport",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "execute",
-      "fileName" : "CacheAspectSupport.java",
-      "lineNumber" : 302,
-      "className" : "org.springframework.cache.interceptor.CacheAspectSupport",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invoke",
-      "fileName" : "CacheInterceptor.java",
-      "lineNumber" : 61,
-      "className" : "org.springframework.cache.interceptor.CacheInterceptor",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "proceed",
-      "fileName" : "ReflectiveMethodInvocation.java",
-      "lineNumber" : 179,
-      "className" : "org.springframework.aop.framework.ReflectiveMethodInvocation",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "intercept",
-      "fileName" : "CglibAopProxy.java",
-      "lineNumber" : 655,
-      "className" : "org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "getDocuments",
-      "fileName" : "<generated>",
-      "lineNumber" : -1,
-      "className" : "gov.uspto.ptab.publicdata.ws.web.api.DocumentController$$EnhancerBySpringCGLIB$$86ce9a07",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invoke",
-      "lineNumber" : -1,
-      "className" : "sun.reflect.GeneratedMethodAccessor80",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invoke",
-      "fileName" : "DelegatingMethodAccessorImpl.java",
-      "lineNumber" : 43,
-      "className" : "sun.reflect.DelegatingMethodAccessorImpl",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invoke",
-      "fileName" : "Method.java",
-      "lineNumber" : 498,
-      "className" : "java.lang.reflect.Method",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doInvoke",
-      "fileName" : "InvocableHandlerMethod.java",
-      "lineNumber" : 222,
-      "className" : "org.springframework.web.method.support.InvocableHandlerMethod",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invokeForRequest",
-      "fileName" : "InvocableHandlerMethod.java",
-      "lineNumber" : 137,
-      "className" : "org.springframework.web.method.support.InvocableHandlerMethod",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invokeAndHandle",
-      "fileName" : "ServletInvocableHandlerMethod.java",
-      "lineNumber" : 110,
-      "className" : "org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invokeHandlerMethod",
-      "fileName" : "RequestMappingHandlerAdapter.java",
-      "lineNumber" : 814,
-      "className" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "handleInternal",
-      "fileName" : "RequestMappingHandlerAdapter.java",
-      "lineNumber" : 737,
-      "className" : "org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "handle",
-      "fileName" : "AbstractHandlerMethodAdapter.java",
-      "lineNumber" : 85,
-      "className" : "org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doDispatch",
-      "fileName" : "DispatcherServlet.java",
-      "lineNumber" : 959,
-      "className" : "org.springframework.web.servlet.DispatcherServlet",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doService",
-      "fileName" : "DispatcherServlet.java",
-      "lineNumber" : 893,
-      "className" : "org.springframework.web.servlet.DispatcherServlet",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "processRequest",
-      "fileName" : "FrameworkServlet.java",
-      "lineNumber" : 969,
-      "className" : "org.springframework.web.servlet.FrameworkServlet",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doGet",
-      "fileName" : "FrameworkServlet.java",
-      "lineNumber" : 860,
-      "className" : "org.springframework.web.servlet.FrameworkServlet",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "service",
-      "fileName" : "HttpServlet.java",
-      "lineNumber" : 622,
-      "className" : "javax.servlet.http.HttpServlet",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "service",
-      "fileName" : "FrameworkServlet.java",
-      "lineNumber" : 845,
-      "className" : "org.springframework.web.servlet.FrameworkServlet",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "service",
-      "fileName" : "HttpServlet.java",
-      "lineNumber" : 729,
-      "className" : "javax.servlet.http.HttpServlet",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "internalDoFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 291,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 206,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "WsFilter.java",
-      "lineNumber" : 52,
-      "className" : "org.apache.tomcat.websocket.server.WsFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "internalDoFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 239,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 206,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilterInternal",
-      "fileName" : "EndpointWebMvcAutoConfiguration.java",
-      "lineNumber" : 243,
-      "className" : "org.springframework.boot.actuate.autoconfigure.EndpointWebMvcAutoConfiguration$ApplicationContextHeaderFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "OncePerRequestFilter.java",
-      "lineNumber" : 107,
-      "className" : "org.springframework.web.filter.OncePerRequestFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "internalDoFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 239,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 206,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilterInternal",
-      "fileName" : "WebRequestTraceFilter.java",
-      "lineNumber" : 111,
-      "className" : "org.springframework.boot.actuate.trace.WebRequestTraceFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "OncePerRequestFilter.java",
-      "lineNumber" : 107,
-      "className" : "org.springframework.web.filter.OncePerRequestFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "internalDoFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 239,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 206,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 316,
-      "className" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invoke",
-      "fileName" : "FilterSecurityInterceptor.java",
-      "lineNumber" : 126,
-      "className" : "org.springframework.security.web.access.intercept.FilterSecurityInterceptor",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterSecurityInterceptor.java",
-      "lineNumber" : 90,
-      "className" : "org.springframework.security.web.access.intercept.FilterSecurityInterceptor",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 330,
-      "className" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "ExceptionTranslationFilter.java",
-      "lineNumber" : 114,
-      "className" : "org.springframework.security.web.access.ExceptionTranslationFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 330,
-      "className" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "SessionManagementFilter.java",
-      "lineNumber" : 122,
-      "className" : "org.springframework.security.web.session.SessionManagementFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 330,
-      "className" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "AnonymousAuthenticationFilter.java",
-      "lineNumber" : 111,
-      "className" : "org.springframework.security.web.authentication.AnonymousAuthenticationFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 330,
-      "className" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "SecurityContextHolderAwareRequestFilter.java",
-      "lineNumber" : 169,
-      "className" : "org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 330,
-      "className" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "RequestCacheAwareFilter.java",
-      "lineNumber" : 48,
-      "className" : "org.springframework.security.web.savedrequest.RequestCacheAwareFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 330,
-      "className" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "LogoutFilter.java",
-      "lineNumber" : 120,
-      "className" : "org.springframework.security.web.authentication.logout.LogoutFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 330,
-      "className" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilterInternal",
-      "fileName" : "CsrfFilter.java",
-      "lineNumber" : 96,
-      "className" : "org.springframework.security.web.csrf.CsrfFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "OncePerRequestFilter.java",
-      "lineNumber" : 107,
-      "className" : "org.springframework.web.filter.OncePerRequestFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 330,
-      "className" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilterInternal",
-      "fileName" : "HeaderWriterFilter.java",
-      "lineNumber" : 64,
-      "className" : "org.springframework.security.web.header.HeaderWriterFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "OncePerRequestFilter.java",
-      "lineNumber" : 107,
-      "className" : "org.springframework.web.filter.OncePerRequestFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 330,
-      "className" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "SecurityContextPersistenceFilter.java",
-      "lineNumber" : 91,
-      "className" : "org.springframework.security.web.context.SecurityContextPersistenceFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 330,
-      "className" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilterInternal",
-      "fileName" : "WebAsyncManagerIntegrationFilter.java",
-      "lineNumber" : 53,
-      "className" : "org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "OncePerRequestFilter.java",
-      "lineNumber" : 107,
-      "className" : "org.springframework.web.filter.OncePerRequestFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 330,
-      "className" : "org.springframework.security.web.FilterChainProxy$VirtualFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilterInternal",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 213,
-      "className" : "org.springframework.security.web.FilterChainProxy",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "FilterChainProxy.java",
-      "lineNumber" : 176,
-      "className" : "org.springframework.security.web.FilterChainProxy",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invokeDelegate",
-      "fileName" : "DelegatingFilterProxy.java",
-      "lineNumber" : 346,
-      "className" : "org.springframework.web.filter.DelegatingFilterProxy",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "DelegatingFilterProxy.java",
-      "lineNumber" : 262,
-      "className" : "org.springframework.web.filter.DelegatingFilterProxy",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "internalDoFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 239,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 206,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilterInternal",
-      "fileName" : "RequestContextFilter.java",
-      "lineNumber" : 99,
-      "className" : "org.springframework.web.filter.RequestContextFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "OncePerRequestFilter.java",
-      "lineNumber" : 107,
-      "className" : "org.springframework.web.filter.OncePerRequestFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "internalDoFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 239,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 206,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilterInternal",
-      "fileName" : "HttpPutFormContentFilter.java",
-      "lineNumber" : 87,
-      "className" : "org.springframework.web.filter.HttpPutFormContentFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "OncePerRequestFilter.java",
-      "lineNumber" : 107,
-      "className" : "org.springframework.web.filter.OncePerRequestFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "internalDoFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 239,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 206,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilterInternal",
-      "fileName" : "HiddenHttpMethodFilter.java",
-      "lineNumber" : 77,
-      "className" : "org.springframework.web.filter.HiddenHttpMethodFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "OncePerRequestFilter.java",
-      "lineNumber" : 107,
-      "className" : "org.springframework.web.filter.OncePerRequestFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "internalDoFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 239,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 206,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilterInternal",
-      "fileName" : "CharacterEncodingFilter.java",
-      "lineNumber" : 121,
-      "className" : "org.springframework.web.filter.CharacterEncodingFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "OncePerRequestFilter.java",
-      "lineNumber" : 107,
-      "className" : "org.springframework.web.filter.OncePerRequestFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "internalDoFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 239,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 206,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilterInternal",
-      "fileName" : "MetricsFilter.java",
-      "lineNumber" : 103,
-      "className" : "org.springframework.boot.actuate.autoconfigure.MetricsFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "OncePerRequestFilter.java",
-      "lineNumber" : 107,
-      "className" : "org.springframework.web.filter.OncePerRequestFilter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "internalDoFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 239,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doFilter",
-      "fileName" : "ApplicationFilterChain.java",
-      "lineNumber" : 206,
-      "className" : "org.apache.catalina.core.ApplicationFilterChain",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invoke",
-      "fileName" : "StandardWrapperValve.java",
-      "lineNumber" : 212,
-      "className" : "org.apache.catalina.core.StandardWrapperValve",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invoke",
-      "fileName" : "StandardContextValve.java",
-      "lineNumber" : 106,
-      "className" : "org.apache.catalina.core.StandardContextValve",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invoke",
-      "fileName" : "AuthenticatorBase.java",
-      "lineNumber" : 502,
-      "className" : "org.apache.catalina.authenticator.AuthenticatorBase",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invoke",
-      "fileName" : "StandardHostValve.java",
-      "lineNumber" : 141,
-      "className" : "org.apache.catalina.core.StandardHostValve",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invoke",
-      "fileName" : "ErrorReportValve.java",
-      "lineNumber" : 79,
-      "className" : "org.apache.catalina.valves.ErrorReportValve",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "invoke",
-      "fileName" : "StandardEngineValve.java",
-      "lineNumber" : 88,
-      "className" : "org.apache.catalina.core.StandardEngineValve",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "service",
-      "fileName" : "CoyoteAdapter.java",
-      "lineNumber" : 521,
-      "className" : "org.apache.catalina.connector.CoyoteAdapter",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "process",
-      "fileName" : "AbstractHttp11Processor.java",
-      "lineNumber" : 1096,
-      "className" : "org.apache.coyote.http11.AbstractHttp11Processor",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "process",
-      "fileName" : "AbstractProtocol.java",
-      "lineNumber" : 674,
-      "className" : "org.apache.coyote.AbstractProtocol$AbstractConnectionHandler",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "doRun",
-      "fileName" : "NioEndpoint.java",
-      "lineNumber" : 1500,
-      "className" : "org.apache.tomcat.util.net.NioEndpoint$SocketProcessor",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "run",
-      "fileName" : "NioEndpoint.java",
-      "lineNumber" : 1456,
-      "className" : "org.apache.tomcat.util.net.NioEndpoint$SocketProcessor",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "runWorker",
-      "fileName" : "ThreadPoolExecutor.java",
-      "lineNumber" : 1149,
-      "className" : "java.util.concurrent.ThreadPoolExecutor",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "run",
-      "fileName" : "ThreadPoolExecutor.java",
-      "lineNumber" : 624,
-      "className" : "java.util.concurrent.ThreadPoolExecutor$Worker",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "run",
-      "fileName" : "TaskThread.java",
-      "lineNumber" : 61,
-      "className" : "org.apache.tomcat.util.threads.TaskThread$WrappingRunnable",
-      "nativeMethod" : false
-    }, {
-      "methodName" : "run",
-      "fileName" : "Thread.java",
-      "lineNumber" : 748,
-      "className" : "java.lang.Thread",
-      "nativeMethod" : false
-    } ],
-    "message" : " is not a valid value.",
-    "localizedMessage" : " is not a valid value.",
-    "suppressed" : [ ]
+  "metadata" : {
+    "limit" : 25,
+    "offset" : 0,
+    "count" : 371188,
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents?filingDatetimeFrom=2014-01-01&filingDatetimeTo=2017-01-01"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents.zip?filingDatetimeFrom=2014-01-01&filingDatetimeTo=2017-01-01"
+    } ]
   },
-  "timestamp" : "2017-09-24T21:05:33.589"
+  "results" : [ {
+    "filingParty" : "patent_owner",
+    "lastModifiedDatetime" : "2014-03-26T14:20:37",
+    "documentNumber" : "69",
+    "title" : "Patent Owner's Notice of Appeal",
+    "filingDatetime" : "2014-03-26T14:20:37",
+    "sizeInBytes" : 85960,
+    "trialNumber" : "CBM2012-00002",
+    "mediaType" : "application/pdf",
+    "id" : 1,
+    "type" : "notice of appeal",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/1"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/1/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2012-00002"
+    } ]
+  }, {
+    "filingParty" : "board",
+    "lastModifiedDatetime" : "2014-03-26T16:14:54",
+    "documentNumber" : "83",
+    "title" : "Order - Conduct of the Proceeding",
+    "filingDatetime" : "2014-03-26T16:14:54",
+    "sizeInBytes" : 12536,
+    "trialNumber" : "CBM2012-00003",
+    "mediaType" : "application/pdf",
+    "id" : 2,
+    "type" : "notice",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/2"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/2/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2012-00003"
+    } ]
+  }, {
+    "filingParty" : "board",
+    "lastModifiedDatetime" : "2014-04-01T17:26:30",
+    "documentNumber" : "85",
+    "title" : "Decision Request for Rehearing",
+    "filingDatetime" : "2014-04-01T17:25",
+    "sizeInBytes" : 96037,
+    "trialNumber" : "CBM2012-00003",
+    "mediaType" : "application/pdf",
+    "id" : 3,
+    "type" : "rehearing decision",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/3"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/3/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2012-00003"
+    } ]
+  }, {
+    "filingParty" : "patent_owner",
+    "lastModifiedDatetime" : "2014-03-28T21:54",
+    "documentNumber" : "84",
+    "title" : "Patent Owner's Opposition to Paper No. 81",
+    "filingDatetime" : "2014-03-28T21:54",
+    "sizeInBytes" : 148147,
+    "trialNumber" : "CBM2012-00003",
+    "mediaType" : "application/pdf",
+    "id" : 4,
+    "type" : "opposition",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/4"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/4/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2012-00003"
+    } ]
+  }, {
+    "filingParty" : "patent_owner",
+    "lastModifiedDatetime" : "2014-03-26T14:08:45",
+    "documentNumber" : "82",
+    "title" : "Transcript of 3-25-14 teleconference",
+    "filingDatetime" : "2014-03-26T14:08:45",
+    "sizeInBytes" : 102495,
+    "trialNumber" : "CBM2012-00003",
+    "mediaType" : "application/pdf",
+    "id" : 5,
+    "type" : "notice",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/5"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/5/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2012-00003"
+    } ]
+  }, {
+    "filingParty" : "petitioner",
+    "lastModifiedDatetime" : "2014-03-13T17:58:15",
+    "documentNumber" : "81",
+    "title" : "Petitioner's Request for Rehearing Seeking Conditional Relief Pursuant to 37 C.F.R. Section 42.71",
+    "filingDatetime" : "2014-03-13T17:58:14",
+    "sizeInBytes" : 79470,
+    "trialNumber" : "CBM2012-00003",
+    "mediaType" : "application/pdf",
+    "id" : 6,
+    "type" : "rehearing request",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/6"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/6/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2012-00003"
+    } ]
+  }, {
+    "filingParty" : "board",
+    "lastModifiedDatetime" : "2014-04-01T17:27:59",
+    "documentNumber" : "64",
+    "title" : "Decision Request for Rehearing",
+    "filingDatetime" : "2014-04-01T17:19",
+    "sizeInBytes" : 168527,
+    "trialNumber" : "CBM2012-00004",
+    "mediaType" : "application/pdf",
+    "id" : 7,
+    "type" : "rehearing decision",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/7"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/7/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2012-00004"
+    } ]
+  }, {
+    "filingParty" : "patent_owner",
+    "lastModifiedDatetime" : "2014-03-24T16:38:39",
+    "documentNumber" : "67",
+    "title" : "Patent Owner's Notice of Appeal",
+    "filingDatetime" : "2014-03-24T16:38:39",
+    "sizeInBytes" : 155727,
+    "trialNumber" : "CBM2012-00005",
+    "mediaType" : "application/pdf",
+    "id" : 8,
+    "type" : "notice of appeal",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/8"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/8/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2012-00005"
+    } ]
+  }, {
+    "filingParty" : "patent_owner",
+    "lastModifiedDatetime" : "2014-04-02T14:56:34",
+    "documentNumber" : "60",
+    "title" : "Notice of Appeal to the Federal Circuit",
+    "filingDatetime" : "2014-04-02T14:56:34",
+    "sizeInBytes" : 136214,
+    "trialNumber" : "CBM2012-00007",
+    "mediaType" : "application/pdf",
+    "id" : 9,
+    "type" : "notice of appeal",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/9"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/9/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2012-00007"
+    } ]
+  }, {
+    "filingParty" : "board",
+    "lastModifiedDatetime" : "2014-03-13T08:53:11",
+    "documentNumber" : "53",
+    "title" : "Final Written Decision",
+    "filingDatetime" : "2014-03-13T08:53:10",
+    "sizeInBytes" : 712622,
+    "trialNumber" : "CBM2013-00004",
+    "mediaType" : "application/pdf",
+    "id" : 10,
+    "type" : "final decision",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/10"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/10/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00004"
+    } ]
+  }, {
+    "filingParty" : "board",
+    "lastModifiedDatetime" : "2014-03-26T14:12:12",
+    "documentNumber" : "71",
+    "title" : "Final Written Decision",
+    "filingDatetime" : "2014-03-26T14:12:12",
+    "sizeInBytes" : 319534,
+    "trialNumber" : "CBM2013-00005",
+    "mediaType" : "application/pdf",
+    "id" : 11,
+    "type" : "final decision",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/11"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/11/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00005"
+    } ]
+  }, {
+    "filingParty" : "patent_owner",
+    "lastModifiedDatetime" : "2014-03-28T21:55:50",
+    "documentNumber" : "77",
+    "title" : "Patent Owner's Opposition to Paper No. 73",
+    "filingDatetime" : "2014-03-28T21:55:50",
+    "sizeInBytes" : 147903,
+    "trialNumber" : "CBM2013-00009",
+    "mediaType" : "application/pdf",
+    "id" : 13,
+    "type" : "opposition",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/13"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/13/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00009"
+    } ]
+  }, {
+    "filingParty" : "patent_owner",
+    "lastModifiedDatetime" : "2014-03-12T13:01:51",
+    "documentNumber" : "72",
+    "title" : "Patent Owner's Updated Exhibit List",
+    "filingDatetime" : "2014-03-12T13:01:51",
+    "sizeInBytes" : 69439,
+    "trialNumber" : "CBM2013-00009",
+    "mediaType" : "application/pdf",
+    "id" : 14,
+    "type" : "notice",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/14"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/14/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00009"
+    } ]
+  }, {
+    "filingParty" : "patent_owner",
+    "lastModifiedDatetime" : "2014-03-26T14:10:48",
+    "documentNumber" : "74",
+    "title" : "Transcript of 3-25-14 teleconference",
+    "filingDatetime" : "2014-03-26T14:10:48",
+    "sizeInBytes" : 102495,
+    "trialNumber" : "CBM2013-00009",
+    "mediaType" : "application/pdf",
+    "id" : 15,
+    "type" : "notice",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/15"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/15/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00009"
+    } ]
+  }, {
+    "filingParty" : "board",
+    "lastModifiedDatetime" : "2014-03-26T16:20:13",
+    "documentNumber" : "75",
+    "title" : "Order - Conduct of the Proceeding",
+    "filingDatetime" : "2014-03-26T16:20:12",
+    "sizeInBytes" : 12855,
+    "trialNumber" : "CBM2013-00009",
+    "mediaType" : "application/pdf",
+    "id" : 16,
+    "type" : "notice",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/16"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/16/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00009"
+    } ]
+  }, {
+    "filingParty" : "patent_owner",
+    "lastModifiedDatetime" : "2014-03-12T13:00:23",
+    "documentNumber" : "71",
+    "title" : "Patent Owner's Request for Rehearing Pursuant to 37 CFR 42.71",
+    "filingDatetime" : "2014-03-12T13:00:23",
+    "sizeInBytes" : 184648,
+    "trialNumber" : "CBM2013-00009",
+    "mediaType" : "application/pdf",
+    "id" : 17,
+    "type" : "rehearing request",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/17"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/17/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00009"
+    } ]
+  }, {
+    "filingParty" : "petitioner",
+    "lastModifiedDatetime" : "2014-03-13T18:00:39",
+    "documentNumber" : "73",
+    "title" : "Petitioner's Request For Rehearing Seeking Conditional Relief Pursuant to 37 C.F.R. Section 42.71",
+    "filingDatetime" : "2014-03-13T18:00:39",
+    "sizeInBytes" : 79195,
+    "trialNumber" : "CBM2013-00009",
+    "mediaType" : "application/pdf",
+    "id" : 18,
+    "type" : "rehearing request",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/18"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/18/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00009"
+    } ]
+  }, {
+    "filingParty" : "petitioner",
+    "lastModifiedDatetime" : "2014-03-28T18:23:24",
+    "documentNumber" : "76",
+    "title" : "Petitioner Opposition to Patent Owner's Request for Rehearing",
+    "filingDatetime" : "2014-03-28T18:23:24",
+    "sizeInBytes" : 86948,
+    "trialNumber" : "CBM2013-00009",
+    "mediaType" : "application/pdf",
+    "id" : 20,
+    "type" : "opposition",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/20"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/20/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00009"
+    } ]
+  }, {
+    "filingParty" : "patent_owner",
+    "lastModifiedDatetime" : "2014-03-12T13:00:23",
+    "documentNumber" : "2036",
+    "title" : "Declaration of James L. Wamsley",
+    "filingDatetime" : "2014-03-12T13:00:23",
+    "sizeInBytes" : 507844,
+    "trialNumber" : "CBM2013-00009",
+    "mediaType" : "application/pdf",
+    "id" : 21,
+    "type" : "exhibit",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/21"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/21/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00009"
+    } ]
+  }, {
+    "filingParty" : "petitioner",
+    "lastModifiedDatetime" : "2014-04-20T16:32:29",
+    "documentNumber" : "1011",
+    "title" : "Patent Owner's Corrected Response, IPR2013-00194",
+    "filingDatetime" : "2014-04-20T16:32:28",
+    "sizeInBytes" : 255191,
+    "trialNumber" : "CBM2013-00013",
+    "mediaType" : "application/pdf",
+    "id" : 22,
+    "type" : "exhibit",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/22"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/22/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00013"
+    } ]
+  }, {
+    "filingParty" : "petitioner",
+    "lastModifiedDatetime" : "2014-04-20T16:32:29",
+    "documentNumber" : "1012",
+    "title" : "Pi-Net v. JP Morgan, Joint Claim Construction Chart",
+    "filingDatetime" : "2014-04-20T16:32:28",
+    "sizeInBytes" : 171820,
+    "trialNumber" : "CBM2013-00013",
+    "mediaType" : "application/pdf",
+    "id" : 23,
+    "type" : "exhibit",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/23"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/23/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00013"
+    } ]
+  }, {
+    "filingParty" : "potential_patent_owner",
+    "lastModifiedDatetime" : "2014-03-10T17:49:22",
+    "documentNumber" : "41",
+    "title" : "Power of Attorney",
+    "filingDatetime" : "2014-03-10T17:49:22",
+    "sizeInBytes" : 51759,
+    "trialNumber" : "CBM2013-00013",
+    "mediaType" : "application/pdf",
+    "id" : 24,
+    "type" : "power of attorney",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/24"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/24/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00013"
+    } ]
+  }, {
+    "filingParty" : "potential_patent_owner",
+    "lastModifiedDatetime" : "2014-03-10T17:49:22",
+    "documentNumber" : "42",
+    "title" : "Related Matters",
+    "filingDatetime" : "2014-03-10T17:49:22",
+    "sizeInBytes" : 35306,
+    "trialNumber" : "CBM2013-00013",
+    "mediaType" : "application/pdf",
+    "id" : 25,
+    "type" : "notice",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/25"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/25/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00013"
+    } ]
+  }, {
+    "filingParty" : "patent_owner",
+    "lastModifiedDatetime" : "2014-03-11T22:09:21",
+    "documentNumber" : "2023",
+    "title" : "PI-NET 2023",
+    "filingDatetime" : "2014-03-11T22:09:20",
+    "sizeInBytes" : 47759,
+    "trialNumber" : "CBM2013-00013",
+    "mediaType" : "application/pdf",
+    "id" : 26,
+    "type" : "exhibit",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/26"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/26/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00013"
+    } ]
+  }, {
+    "filingParty" : "petitioner",
+    "lastModifiedDatetime" : "2014-04-20T16:32:29",
+    "documentNumber" : "45",
+    "title" : "Petitioner's Reply to Patent Owner's Corrected Response to Petition",
+    "filingDatetime" : "2014-04-20T16:32:28",
+    "sizeInBytes" : 63850,
+    "trialNumber" : "CBM2013-00013",
+    "mediaType" : "application/pdf",
+    "id" : 27,
+    "type" : "reply",
+    "links" : [ {
+      "rel" : "self",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/27"
+    }, {
+      "rel" : "download",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/documents/27/native"
+    }, {
+      "rel" : "trial",
+      "href" : "https://ptabdata.uspto.gov/ptab-api/trials/CBM2013-00013"
+    } ]
+  } ]
 }
